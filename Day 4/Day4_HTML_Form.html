@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form in HTML</title>
+    </head>
+    <body>
+        <main>
+            <h1>New day new experiment</h1>
+            <h2>Here I learn creating forms in HTML</h2>
+        </main>
+        <form>
+            <label for="fname">First Name: </label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="gender">What is your gender?</label><br><br>
+            <select id="gender" name="gender" size="3">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Go back">Nota💀</option>
+            </select>
+            <br><br>
+            <label for="department">Which department</label><br>
+            <select id="department" name="department" size="4">
+                <option value="Mechanical">Mechanical</option>
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="EXTC">EXTC</option>
+            </select>
+            <br><br>
+            <label for="cv">Upload your resume</label>
+            <input type="file" id="cv" name="cv">
+            <br><br>    
+            <button type="button" onclick="alert('Lowkey Authenticated!')">Prove that you are a human!</button>
+        </form>
+    </body>
+</html>
