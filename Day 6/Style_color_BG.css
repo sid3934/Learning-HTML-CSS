@@ -1,0 +1,21 @@
+*{
+    margin: 5px;
+    height: 3px;
+}
+.red{
+    background-color: red;
+    color: yellowgreen;
+    height: 800px;
+}
+.yellow{
+    background-color: yellowgreen;
+    color: red;
+    height: 20px;
+}
+.bg_image{
+    background-image: url(https://lh3.googleusercontent.com/-fu_n_o286is/X4kTLfk1w9I/AAAAAAAAYrg/alQz-OBUV6UIcA--WkZ4JzdjKBWevXQEgCLcBGAsYHQ/s1600/1602818857316588-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    background-attachment: local, scroll;
+}

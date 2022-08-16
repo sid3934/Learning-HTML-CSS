@@ -1,0 +1,17 @@
+.navbar{
+    background-color: rgb(217, 255, 0);
+    color: yellowgreen;
+    width: 120px;
+    float: left;
+}
+.main_bg{
+    background-color: violet;
+    color: aqua;
+    width: 50%;
+}
+.bgimg{
+    background-image: url(https://lh3.googleusercontent.com/-fu_n_o286is/X4kTLfk1w9I/AAAAAAAAYrg/alQz-OBUV6UIcA--WkZ4JzdjKBWevXQEgCLcBGAsYHQ/s1600/1602818857316588-1.png);
+    background-repeat: no-repeat;
+    background-attachment: local, scroll;
+    background-size: 50%;
+}
