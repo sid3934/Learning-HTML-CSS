@@ -1,0 +1,1 @@
+Day 7 begins with learning the box model of HTML-CSS, i.e. adding Margin, Border, Padding, Contents. <br> Following which I learn the margin collapse properyof browsers. <br> Ultimately this is put to test via the task where I make a website layout using the box model and add suitable borders, margins, etc.
