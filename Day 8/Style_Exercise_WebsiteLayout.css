@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 50px;
+    background-color: rgba(214, 208, 208, 0.774);
+}
+.ul_line{
+    display: inline;
+    text-align: center;
+    padding: 14px 50px;
+}
+li a:hover{
+    background-color: rgb(62, 165, 212);
+}
+.rightbar{
+    display: inline-block;  
+    width: 50%;
+    height: 80vh;
+    background-color: wheat;
+    font-size: 18px;
+    overflow: scroll;
+}
+.leftbar{
+    display: inline-block;
+    width: 50%;
+    height: 80vh;
+    background-color: thistle;
+    font-size: 18px;
+    overflow: scroll;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 2.2%;
+    font-family: 'Noto Sans Siddham', sans-serif;
+}
+.txtcenter{
+    text-align: center;
+}
