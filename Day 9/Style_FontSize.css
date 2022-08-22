@@ -1,0 +1,21 @@
+html{
+    font-size: 10px;
+}
+.container1{
+    font-size: 15px;
+}
+.box1{
+    font-size: 2em;
+}
+.container2{
+    font-size: 15px;
+}
+.box2{
+    font-size: 3rem;
+}
+.container3{
+    background-color: aquamarine;
+    font-size: 15px;
+    width: 28vw;
+    height: 13vh;
+}

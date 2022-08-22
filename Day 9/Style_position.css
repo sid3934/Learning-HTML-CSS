@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(216, 174, 95);
+    height: 35px;
+    text-align: center;
+}
+li{
+    display: inline;
+}
+.container{
+    background-color: violet;
+    height: 30vh;
+    width: 50vw;
+    margin: auto;
+    padding: 0px 35px;
+}
+p{
+    text-align: center;
+    border: 2px solid black;
+}
+.box{
+    height: 125px;
+    text-align: center;
+    width: 250px;
+    overflow: scroll;
+    background-color: rgba(223, 241, 121, 0.856);
+    position: relative;
+    top: 50px; left: 230px;
+}
+.box2{
+    background-color: rgba(223, 241, 121, 0.26);
+    position: relative;
+    top: 50px;
+}
+.box3{
+    background-color: red;
+    width: 39px;
+    position: relative;
+    bottom: 280px; left: 660px;
+}

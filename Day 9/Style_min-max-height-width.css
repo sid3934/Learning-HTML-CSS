@@ -1,0 +1,12 @@
+.container1{
+    background-color: rgb(216, 177, 104);
+    width: 700px;
+    height: 15vh;
+    min-height: 35vh;
+}
+.container2{
+    background-color: yellow;
+    width: 700px;
+    max-height: 50vh;
+    overflow: scroll;
+}
