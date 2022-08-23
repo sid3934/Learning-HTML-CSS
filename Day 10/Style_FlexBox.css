@@ -1,0 +1,21 @@
+.container{
+    background-color: aqua;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+}
+.box1{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    flex-grow: 2;
+}
+.box2{
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}

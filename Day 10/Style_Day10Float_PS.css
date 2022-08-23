@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 5vh;
+    padding: 0px 30px;
+}
+.left{
+    float: left;
+    background-color: violet;
+    height: 15vh;
+    width: 35vw;
+}
+.right{
+    float: right;
+    background-color: rgba(245, 194, 245, 0.822);
+    height: 15vh;
+    width: 35vw;
+}
+
