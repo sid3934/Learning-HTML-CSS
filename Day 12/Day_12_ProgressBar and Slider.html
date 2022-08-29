@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress bar</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .progress{
+            background-color: red;
+            height: 1vh;
+            animation-name: load;
+            animation-duration: 5s;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+            direction: normal;
+        }
+        header{
+            height: 20vh;
+            background-color: black;
+            color: white;
+        }
+        ul{
+            display: inline-grid;
+            grid-template-columns: auto auto auto auto;
+        }
+        ul li{
+            list-style: none;
+            margin: 0px 23px; 
+            padding: 10px 0px;
+        }
+        main{
+            height: 79vh;
+            background-color: rgb(158, 112, 112);
+        }
+        .slider{
+            background-color: white;
+            height: 60vh;
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* margin: auto; */
+            /* overflow: scroll; */
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+        img{
+            display: block;
+            margin: auto;
+        }
+        .img1{
+            transform: translate(-40vw);
+            animation: slide1 3s 3s 1 forwards;
+        }
+        .img2{
+            transform: translate(-80vw);
+            animation: slide2 6s 6s 1 forwards;
+        }
+        .img3{
+            transform: translate(-120vw);
+            animation: slide3 3s 12s 1 forwards;
+        }
+        @keyframes load{
+            0%{
+                width: 0;
+            }            
+            50%{
+                width: 55vw;
+            }
+            100%{
+                width: 100vw;
+            }
+        }
+        @keyframes slide1 {
+            0%{
+                transform: translate(0vw);
+            }
+            100%{
+                transform: translate(60vw);
+                display: none;
+                visibility: hidden;
+            }            
+        }
+        @keyframes slide2 {
+            0%{
+                transform: translate(-30vw);
+            }
+            100%{
+                transform: translate(30vw);
+                display: none;
+                visibility: hidden;
+            }
+        }
+        @keyframes slide3 {
+            0%{
+                transform: translate(-100vw);
+            }
+            100%{
+                transform: translate(-50vw);
+                display: none;
+                visibility: hidden;
+            }            
+        }
+    </style>
+</head>
+<body>
+    <div class="progress"></div>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Achievements</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="slider">
+            <img class="img1" src="https://images004-a.erosnow.com/movie/2/1000162/img625352/6983983/1000162_6983983_56.jpg" height="300vh" alt=""> 
+            <img class="img2" src="https://images004-a.erosnow.com/movie/2/1000162/img625352/6833415/1000162_6833415_79.jpg" height="300vh" alt=""> 
+            <img class="img3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXq1UpRI11ZgzIVjrewfttsOAjJ7R6vJuIzRuQvuGAlrKR0GH_0H3ddK8wixJ_Ki5Pz6E&usqp=CAU" height="300vh" alt="">
+        </div>
+    </main>
+</body>
+</html>

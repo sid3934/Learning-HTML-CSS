@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Animations in CSS</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: cyan;
+        }
+        .box{
+            height: 30vh;
+            width: 30vw;
+            background-color: yellowgreen;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3vh;
+            animation-name: width_animate_box;
+            animation-duration: 5s;
+            animation-delay: 100ms;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        img{
+            animation-name: SRK_Animate;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes SRK_Animate {
+            from{
+                width: 30vw;
+            }
+            to{
+                width: 50vw;
+            }
+        }
+        @keyframes width_animate_box {
+            from{
+                width: 30vw;
+            }
+            to{
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Hi, this is a box within the container.
+        </div>
+        <div class="image">
+            <img src="https://a1png.com/wp-content/uploads/2020/08/shahrukh-khan-19.png" alt="The SRK pose">
+        </div>
+    </div>
+</body>
+</html>
